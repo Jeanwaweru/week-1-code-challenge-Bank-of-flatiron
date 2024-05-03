@@ -20,7 +20,7 @@ function AddTransactionForm({onFormSubmit}) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    fetch('https://week-1-code-challenge-bank-of-flatiron.onrender.com', {
+    fetch('https://week-1-code-challenge-bank-of-flatiron.onrender.com/transactions', {
          method: 'POST',
          body: JSON.stringify({
            "id": uuid(),

@@ -7,7 +7,7 @@ function AccountContainer() {
   var [transactions,setTransactions] = useState([])
   //GET request
   useEffect(()=> {
-    fetch('https://week-1-code-challenge-bank-of-flatiron.onrender.com')
+    fetch('https://week-1-code-challenge-bank-of-flatiron.onrender.com/transactions')
       .then((response) => response.json())
       .then((data) => { 
         setTransactions(data)
