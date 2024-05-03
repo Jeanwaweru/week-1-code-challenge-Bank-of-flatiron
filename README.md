@@ -1,3 +1,5 @@
+Code project done and completed by Jean Sheila Wambui Wachuka Waweru
+
 # Bank of Flatiron
 
 Welcome to the Bank of Flatiron, where you can trust us with all your financial
