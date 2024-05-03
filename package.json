@@ -1,4 +1,5 @@
 {
+  "homepage":"https://Jeanwaweru.github.io/week-1-code-challenge-Bank-of-flatiron",
   "name": "react-hooks-bank-of-flatiron-code-challenge",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +15,11 @@
   },
   "scripts": {
     "start": "PORT=8000 react-scripts start",
-    "server": "json-server --watch db.json -p 8001",
-    "build": "react-scripts build"
+    "predeploy":"npm run build",
+     "deploy":"gh-pages -d build",
+     "server": "json-server --watch db.json -p 8001",
+     "build": "react-scripts build"
+    
   },
   "eslintConfig": {
     "extends": [
